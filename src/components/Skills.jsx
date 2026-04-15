@@ -4,7 +4,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["Python", "Java", "JavaScript", "PHP", "SQL", "C"],
+      skills: ["Python", "Java", "JavaScript", "PHP", "SQL", "C", "HTML5", "CSS3"],
       color: "from-blue-500/20 to-blue-600/5",
       borderColor: "group-hover:border-blue-500/50"
     },
@@ -16,7 +16,7 @@ const Skills = () => {
     },
     {
       title: "Databases",
-      skills: ["MySQL", "MongoDB", "SQLite"],
+      skills: ["MySQL", "MongoDB", "SQLite","Time-Series Data Storage"],
       color: "from-purple-500/20 to-purple-600/5",
       borderColor: "group-hover:border-purple-500/50"
     },
@@ -29,7 +29,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-24 bg-slate-950/50 relative">
+    <section id="skills" className="py-24 bg-slate-950/50 relative scroll-mt-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">Technical Arsenal</h2>

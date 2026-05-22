@@ -24,13 +24,13 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-white mb-6">Contact Information</h3>
               
               <div className="space-y-6">
-                <a href="mailto:meetthakkar356@gmail.com" className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors group">
+                <a href="mailto:thakkarmeet339@gmail.com" className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors group">
                   <div className="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition-colors">
                     <Mail size={20} />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400 font-medium mb-1">Email</p>
-                    <p className="font-medium">meetthakkar356@gmail.com</p>
+                    <p className="font-medium">thakkarmeet339@gmail.com</p>
                   </div>
                 </a>
                 

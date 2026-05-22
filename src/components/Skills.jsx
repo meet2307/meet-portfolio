@@ -10,7 +10,7 @@ const Skills = () => {
     },
     {
       title: "Frameworks & Tech",
-      skills: ["Flask", "Node.js", "Flutter", "REST APIs"],
+      skills: ["Django", "Angular", "Flask", "Node.js", "Flutter", "REST APIs"],
       color: "from-indigo-500/20 to-indigo-600/5",
       borderColor: "group-hover:border-indigo-500/50"
     },

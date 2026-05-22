@@ -4,18 +4,32 @@ import { Briefcase } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      role: "Sport Leader",
-      company: "Decathlon",
-      period: "Recent",
-      description: "Directed fast-paced retail operations, focusing on rapid problem resolution, proactive cross-functional teamwork, and handling complex customer interactions efficiently in a high-demand environment.",
-      skills: ["Leadership", "Team Management", "Operational Efficiency", "Process Optimization"]
+      role: "Software Engineer",
+      company: "Digital Asset Custody Solutions (DACS)",
+      period: "Jul 2025 - Nov 2025",
+      description: "Engineered a RESTful API with automated price aggregation from major cryptocurrency exchanges (Binance, Kraken, CoinGecko). Designed database infrastructure processing 100,000+ data points daily with complete audit trails to support regulatory compliance for the ATO, IRS, and HMRC.",
+      skills: ["Python", "REST APIs", "Database Architecture", "RegTech", "Blockchain"]
     },
     {
-      role: "Customer Service",
-      company: "7-Eleven",
-      period: "Previous",
-      description: "Thrived in a strict, high-pressure operational setting. Demonstrated continuous adaptability, reliable execution, and clear communication while navigating heavy workflow demands.",
-      skills: ["Rapid Problem Solving", "Reliability", "Continuous Operations", "Communication"]
+      role: "Web Developer",
+      company: "CROWN Software",
+      period: "Jan 2023 - May 2023",
+      description: "Led the development of a hostel management system digitizing operations for 500+ students. Enhanced application performance through AJAX implementation, reducing load times, and mentored a development team on Git workflows while refactoring 5,000+ lines of legacy code.",
+      skills: ["AJAX", "JavaScript", "Git", "Code Refactoring", "Team Mentorship"]
+    },
+    {
+      role: "Application Developer",
+      company: "Indigenous technology",
+      period: "May 2022 - Jun 2022",
+      description: "Architected the complete frontend for a medicine reminder application serving 200+ beta testers. Established a consistent design system across 15+ screens and created comprehensive technical documentation covering architecture and Firebase integration.",
+      skills: ["Frontend Architecture", "UI/UX", "Firebase", "Documentation"]
+    },
+    {
+      role: "Web Developer",
+      company: "Simulas",
+      period: "Jun 2021 - Aug 2021",
+      description: "Developed a hotel management system for 10+ properties with integrated booking, inventory, and billing modules. Built responsive user interfaces and managed multiple concurrent client projects with proactive communication.",
+      skills: ["HTML5/CSS3", "JavaScript", "Responsive UI", "Client Management"]
     }
   ];
 
@@ -26,7 +40,7 @@ const Experience = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">Experience</h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full shadow-[0_0_10px_rgba(37,99,235,0.5)]"></div>
           <p className="mt-6 text-slate-400 max-w-2xl mx-auto text-lg">
-            Professional background highlighting transferable core skills: communication, teamwork, reliability, and rapid problem solving.
+            Professional engineering background with hands-on experience in full-stack development, cloud architecture, and regulatory technology.
           </p>
         </div>
 

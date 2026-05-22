@@ -11,7 +11,7 @@ const Certifications = () => {
   ];
 
   return (
-    <section id="certifications" className="py-20 relative overflow-hidden bg-transparent">
+    <section id="certifications" className="py-20 relative overflow-hidden bg-transparent scroll-mt-24">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-14">
           <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">Certifications</h2>

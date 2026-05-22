@@ -47,13 +47,13 @@ const Hero = () => {
           
           {/* Social Links */}
           <div className="flex justify-center gap-6">
-            <a href="https://github.com/placeholder" target="_blank" rel="noreferrer" className="p-3 bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-blue-500/50 transition-all shadow-md group">
+            <a href="https://github.com/meet2307" target="_blank" rel="noreferrer" className="p-3 bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-blue-500/50 transition-all shadow-md group">
               <FaGithub size={22} className="group-hover:-translate-y-0.5 transition-transform" />
             </a>
-            <a href="https://linkedin.com/in/placeholder" target="_blank" rel="noreferrer" className="p-3 bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-blue-500/50 transition-all shadow-md group">
+            <a href="https://www.linkedin.com/in/meetthakkar2307/" target="_blank" rel="noreferrer" className="p-3 bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-blue-500/50 transition-all shadow-md group">
               <FaLinkedin size={22} className="group-hover:-translate-y-0.5 transition-transform" />
             </a>
-            <a href="mailto:contact@placeholder.com" className="p-3 bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-blue-500/50 transition-all shadow-md group">
+            <a href="mailto:thakkarmeet339@gmail.com" className="p-3 bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-full text-slate-400 hover:text-white hover:border-blue-500/50 transition-all shadow-md group">
               <Mail size={22} className="group-hover:-translate-y-0.5 transition-transform" />
             </a>
           </div>

@@ -3,7 +3,7 @@ import { Server, Cloud, Code2, Database } from 'lucide-react';
 
 const About = () => {
   return (
-    <section id="about" className="py-24 relative overflow-hidden">
+    <section id="about" className="py-24 relative overflow-hidden scroll-mt-24">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">About Me</h2>

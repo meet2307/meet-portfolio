@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 relative overflow-hidden">
+    <section id="contact" className="py-24 relative overflow-hidden scroll-mt-24">
       {/* Background decoration elements */}
       <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-[100px] -z-10 mix-blend-screen opacity-50"></div>
       
@@ -24,33 +24,33 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-white mb-6">Contact Information</h3>
               
               <div className="space-y-6">
-                <a href="mailto:contact@placeholder.com" className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors group">
+                <a href="mailto:thakkarmeet339@gmail.com" className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors group">
                   <div className="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition-colors">
                     <Mail size={20} />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400 font-medium mb-1">Email</p>
-                    <p className="font-medium">contact@placeholder.com</p>
+                    <p className="font-medium">thakkarmeet339@gmail.com</p>
                   </div>
                 </a>
                 
-                <a href="https://linkedin.com/in/placeholder" target="_blank" rel="noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors group">
+                <a href="https://www.linkedin.com/in/meetthakkar2307/" target="_blank" rel="noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors group">
                   <div className="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition-colors">
                     <FaLinkedin size={20} />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400 font-medium mb-1">LinkedIn</p>
-                    <p className="font-medium">linkedin.com/in/meet-thakkar</p>
+                    <p className="font-medium">linkedin.com/in/meetthakkar2307</p>
                   </div>
                 </a>
                 
-                <a href="https://github.com/placeholder" target="_blank" rel="noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors group">
+                <a href="https://github.com/meet2307" target="_blank" rel="noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors group">
                   <div className="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition-colors">
                     <FaGithub size={20} />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400 font-medium mb-1">GitHub</p>
-                    <p className="font-medium">github.com/placeholder</p>
+                    <p className="font-medium">https://github.com/meet2307</p>
                   </div>
                 </a>
               </div>
